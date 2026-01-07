@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer');
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
-  await page.goto('http://127.0.0.1:5500/index.html');
+  await page.goto('http://127.0.0.1:5500/js-fundamentals-bom-Natalka19/index.html');
 
   const widthSelector = '#widthValue';
   const heightSelector = '#heightValue';
